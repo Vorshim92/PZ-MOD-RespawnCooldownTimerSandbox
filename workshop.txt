@@ -1,0 +1,6 @@
+version=1
+id=3352562211
+title=Respawn Cooldown Timer with Sandbox Option
+description=This mod disables the character creation button after death for a duration set in the sandbox options. You can define the time through the sandbox options, and the button will be enabled once the specified time has passed. Really god for Events!
+tags=Build 41;Interface;Multiplayer
+visibility=public

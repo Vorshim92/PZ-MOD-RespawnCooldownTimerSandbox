@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option RespawnTimer.SetTimer
+{
+  type = integer,
+  default = 120,
+  min = 5,
+  max = 999999,
+  page = RespawnTimer,
+  translation = RespawnTimer_SetTimer,
+}
