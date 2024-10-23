@@ -35,7 +35,7 @@ function ISPostDeathUI:prerender()
     self.buttonRespawn:setTitle(timerText)
     
     -- Set the visibility of the respawn button
-    if allowRespawnTimerExpired then
+    if allowRespawnTimerExpired or isAdmin() then
         self.buttonRespawn:setEnable(true)
         self.buttonRespawn:setTitle(getText("IGUI_PostDeath_Respawn"))
     end
